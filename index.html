@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de Senhas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Seja Bem-Vindx ao Gerador de Senhas!</h1>
+    <h2>Gere agora a sua senha!</h2>
+    <form id="senhaForm">
+        <label for="tamanho">Tamanho da Senha:</label>
+        <input type="number" id="tamanho" min="1" max="20" required><br>
+        
+        <label for="quantidade">Quantidade de Senhas:</label>
+        <input type="number" id="quantidade" min="1" max="10" required><br>
+        
+        <input type="checkbox" id="caracteresEspeciais">
+        <label for="caracteresEspeciais">Caracteres Especiais (!@#$%&*()+=-*./)</label><br>
+        
+        <input type="checkbox" id="numeros">
+        <label for="numeros">Números (0-9)</label><br>
+        
+        <input type="checkbox" id="maiusculas">
+        <label for="maiusculas">Letras Maiúsculas (A-Z)</label><br>
+        
+        <button type="button" onclick="gerarSenhas()">Gerar Senhas</button>
+        <button type="button" onclick="limparInputs()">Limpar</button>
+    </form>
+    
+    <textarea id="senhasGeradas" rows="3" cols="30" readonly></textarea>
+    
+    <script src="gerarSenhas.js"></script>
+    
+</body>
+</html>

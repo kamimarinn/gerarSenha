@@ -1,0 +1,39 @@
+body{
+    background-image: url("img/advert-84408_1280.jpg");
+    background-color: white;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 40vh; 
+    background-repeat: no-repeat;
+  background-position: left top;
+  background-size: 400px;
+    
+}
+
+h1{
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    height: 10vh; 
+    animation: neon 1.5s ease-in-out infinite alternate;
+  
+}
+
+
+
+input[type="text"]
+input[type="number"]
+button{
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    
+}
+
