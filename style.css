@@ -6,8 +6,8 @@ body{
     align-items: center;
     height: 40vh; 
     background-repeat: no-repeat;
-  background-position: left top;
-  background-size: 400px;
+    background-position: left top;
+    background-size: 400px;
     
 }
 
@@ -22,10 +22,17 @@ h2{
     color: black;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     height: 10vh; 
-    animation: neon 1.5s ease-in-out infinite alternate;
+    
   
 }
+.input label{
+    position: absolute;
 
+}
+
+.input{
+    position: relative;
+}
 
 
 input[type="text"]
@@ -35,5 +42,5 @@ button{
     padding: 5px;
     text-align: center;
     
-}
+} 
 
